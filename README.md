@@ -23,3 +23,7 @@ Other notes on installation:
 The Color Blindness Accessibility Checker (CBA Checker) is run through the "Final Code" file. 
 
 For increased computational power and thereby faster processing speed, it is recommended to run this using [Google Colab](colab.research.google.com).
+
+## An Example of the Results
+
+![Increase Accessibility for Deuteranopia](https://user-images.githubusercontent.com/53533879/93836721-805a6f80-fc38-11ea-80ae-babdd010fca0.jpg)
