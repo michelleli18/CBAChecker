@@ -49,7 +49,7 @@ def rgbToLms(imgArray):
     rgbToLms = np.array([[0.31399022, 0.63951294, 0.04649755],
                          [0.15537241, 0.75789446, 0.08670142],
                          [0.01775239, 0.10944209, 0.87256922]])
-    # aka return T[r(c), g(c), b(c)] = [l(c), m(c), s(c)
+    # aka return T[r(c), g(c), b(c)] = [l(c), m(c), s(c)]
     # lms
     return rgbToLms @ imgArray
 
@@ -122,7 +122,7 @@ def simulation(img):
     lmsArray = np.apply_along_axis(rgbToLms, 2, gammaRemovedArray)
     # print("gamma removed to lms complete")
 
-    # protanopia simulation - complete as of 8.24.2020 12:09 am! :D
+    # protanopia simulation - complete as of 8.24.2020
     # simulation step
     protanopia = typeSimulation(lmsArray, "protanopia")
     # print("Protanopia simulation complete")
