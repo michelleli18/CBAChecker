@@ -22,7 +22,7 @@ Other notes on installation:
 
 The Color Blindness Accessibility Checker (CBA Checker) is run through the "Final Code" file. 
 
-For increased computational power and thereby faster processing speed, it is recommended to run this using [Google Colab](colab.research.google.com).
+For increased computational power and thereby faster processing speed, it is recommended to run this using [Google Colab](colab.research.google.com). Runtime took many hours (for 300 photos) on a MacBook Air (runtime optimization is a good future step).
 
 ## An Example of the Results
 
